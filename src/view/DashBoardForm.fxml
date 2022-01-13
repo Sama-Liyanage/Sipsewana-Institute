@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <Pane layoutY="1.0" prefHeight="750.0" prefWidth="236.0">
+         <children>
+            <Label layoutX="22.0" layoutY="63.0" prefHeight="57.0" prefWidth="200.0" style="-fx-background-color: #2d3436;" text="Sipsewna Institute" textFill="WHITE">
+               <font>
+                  <Font name="Harrington" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="63.0" fitWidth="73.0" layoutX="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/image/Education__28105_29.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="btnCourse" buttonType="RAISED" layoutX="74.0" layoutY="397.0" onAction="#btnCourseOnAction" style="-fx-background-radius: 50; -fx-background-color: #2d3436;" text="Course" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <ripplerFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+            </JFXButton>
+            <JFXButton fx:id="btnRegistration" buttonType="RAISED" layoutX="40.0" layoutY="187.0" onAction="#btnRegistrationOnAction" prefHeight="24.0" prefWidth="134.0" style="-fx-background-radius: 50; -fx-background-color: #2d3436;" text="Registration" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="19.0" />
+               </font>
+               <ripplerFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+            </JFXButton>
+            <JFXButton fx:id="btnStudent" buttonType="RAISED" layoutX="53.0" layoutY="289.0" onAction="#btnStudentOnAction" prefHeight="40.0" prefWidth="109.0" style="-fx-background-radius: 50; -fx-background-color: #2d3436;" text="Student" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <ripplerFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+            </JFXButton>
+         </children></Pane>
+      <Pane layoutX="231.0" layoutY="10.0" prefHeight="725.0" prefWidth="5.0" style="-fx-background-color: black;" />
+      <JFXButton fx:id="btnExit" buttonType="RAISED" contentDisplay="CENTER" layoutX="11.0" layoutY="680.0" onAction="#btnExitOnAction" style="-fx-background-radius: 50;" text=" ">
+         <graphic>
+            <ImageView fitHeight="47.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/image/shutdown_127px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <AnchorPane fx:id="dashboardAnchor" layoutX="236.0" layoutY="1.0" prefHeight="750.0" prefWidth="1114.0" />
+      <Separator layoutX="18.0" layoutY="124.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

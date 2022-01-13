@@ -1,0 +1,41 @@
+/*Start MainForm*/
+.mainForm{
+    -fx-background-color: linear-gradient(to bottom, #2a5cff, #3866ff, #456fff, #5079ff, #5c82ff, #6c8dff, #7b99ff, #8aa4ff, #a0b5ff, #b5c6ff, #cbd7ff, #e1e8ff);
+}
+/*End MainForm*/
+
+/* Start login form*/
+.login_main_back{
+    -fx-background-color: #0984e3;
+}
+.login_main_back_2{
+    -fx-background-color: white;
+    -fx-background-radius: 50 50 50 50;
+}
+.login_main{
+    -fx-background-color: linear-gradient(to bottom, #2a5cff, #3866ff, #456fff, #5079ff, #5c82ff, #6c8dff, #7b99ff, #8aa4ff, #a0b5ff, #b5c6ff, #cbd7ff, #e1e8ff);
+    -fx-background-radius: 50 50 50 50;
+}
+.login_left_pane{
+    -fx-background-color: #E1E8FF;
+    -fx-background-radius: 0 100 100 0;
+}
+.login_btn{
+    -fx-background-color: linear-gradient(to left, #6388ff, #6d90ff, #7797ff, #809fff, #8aa6ff, #95aeff, #9fb6ff, #aabeff, #b8c8ff, #c6d3ff, #d3ddff, #e1e8ff);
+    -fx-background-radius: 100;
+}
+.login_circle_0{
+    -fx-fill:#34ace0;
+}
+
+.headerColour{
+    -fx-text-fill: rgb(50, 94, 168);
+}
+.login_color{
+    -fx-text-fill: rgba(32, 80, 107, 0.72);
+}
+
+.background_img{
+    -fx-border-radius: 75%;
+}
+

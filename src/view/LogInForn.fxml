@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogInFormController">
+   <children>
+      <AnchorPane layoutY="14.0" prefHeight="680.0" prefWidth="890.0" stylesheets="@CSS/StyleSheet.css">
+         <children>
+            <Pane layoutX="509.0" layoutY="53.0" prefHeight="671.0" prefWidth="385.0" styleClass="background_img" stylesheets="@CSS/StyleSheet.css">
+               <children>
+                  <ImageView fitHeight="482.0" fitWidth="699.0" layoutX="-328.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true" styleClass="background_img">
+                     <image>
+                        <Image url="@../assets/image/college-campus-concept-vector-illustration-students-interacting-each-other-making-friends-university-tours-events-152638266.jpg" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="-31.0" layoutY="434.0" prefHeight="192.0" prefWidth="438.0" styleClass="login_left_pane" stylesheets="@CSS/StyleSheet.css">
+                     <children>
+                        <JFXButton fx:id="btnEnter" buttonType="RAISED" contentDisplay="CENTER" layoutX="353.0" layoutY="65.0" onAction="#btnEnterOnAction" prefHeight="63.0" prefWidth="64.0" ripplerFill="#ffffff00" styleClass="login_btn" stylesheets="CSS/StyleSheet.css" text=" " textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="15.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@../assets/image/male_user_127px.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="CLOSED_HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="14.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@../assets/image/password_127px.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="CLOSED_HAND" />
+                           </cursor>
+                        </ImageView>
+                        <JFXTextField fx:id="txtUserName" focusColor="DODGERBLUE" labelFloat="true" layoutX="72.0" layoutY="49.0" prefHeight="38.0" prefWidth="204.0" promptText="User Name" unFocusColor="#e1e8ff">
+                           <font>
+                              <Font name="Cambria" size="20.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="txtPw" focusColor="DODGERBLUE" labelFloat="true" layoutX="72.0" layoutY="116.0" prefHeight="38.0" prefWidth="215.0" promptText="Password" unFocusColor="#dfe4ea">
+                           <font>
+                              <Font name="Cambria" size="20.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXButton fx:id="btnPwView" buttonType="RAISED" contentDisplay="CENTER" layoutX="255.0" layoutY="111.0" onAction="#btnPwViewOnAction" prefHeight="27.0" prefWidth="48.0" ripplerFill="WHITE" text=" ">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="368.0" layoutY="79.0" onMouseClicked="#imgEnterOnAction" pickOnBounds="true" preserveRatio="true" styleClass="login_btn">
+                           <image>
+                              <Image url="@../assets/image/login_0.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label layoutX="-120.0" layoutY="-14.0" prefHeight="57.0" prefWidth="313.0" text="Sipsewana Institute">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

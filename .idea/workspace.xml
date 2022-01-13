@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16dd2099-8260-487d-966c-9d0b9053bcab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LogInFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LogInFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/RegistrationFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/RegistrationFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LogInForn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LogInForn.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/RegistrationForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/RegistrationForm.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22whj4ZV9uieTIbnLJucZOVi4Gx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dto" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2nd semester\ORM\Hibernate\New folder\src\dto" />
+      <recent name="F:\2nd semester\ORM\Hibernate\New folder\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="business.custom" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppInitializer" />
+      <module name="Sipsewana" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitializer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16dd2099-8260-487d-966c-9d0b9053bcab" name="Changes" comment="" />
+      <created>1640754692305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640754692305</updated>
+      <workItem from="1640755190542" duration="18847000" />
+      <workItem from="1640783238961" duration="63000" />
+      <workItem from="1640783336600" duration="8264000" />
+      <workItem from="1640838537232" duration="15827000" />
+      <workItem from="1640921052743" duration="38441000" />
+      <workItem from="1640976368893" duration="444000" />
+      <workItem from="1641009599103" duration="31576000" />
+      <workItem from="1641055528139" duration="436000" />
+      <workItem from="1641056029303" duration="387000" />
+      <workItem from="1641057102653" duration="5935000" />
+      <workItem from="1641096389752" duration="5024000" />
+      <workItem from="1641103042539" duration="4578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AppInitializer.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
